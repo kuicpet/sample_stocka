@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sample - Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="https://stocka-demo.herokuapp.com/api/v1/auth/register" id="register_form">
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname"/>
+            </div>
+            <div>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname"/>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"/>
+            </div>
+            <div>
+                <label for="phone">Phone No</label>
+                <input type="number" name="phone" id="phone"/>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"/>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <script src="/script.js" async defer></script>
+    </body>
+</html>
